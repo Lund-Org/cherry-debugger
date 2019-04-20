@@ -1,0 +1,45 @@
+{
+  "name": "@lund-org/cherry-debugger",
+  "version": "0.0.1",
+  "description": "A plugin to debug cherry process",
+  "main": "./src/index.js",
+  "author": "Lund-Org",
+  "license": "MIT",
+  "homepage": "https://github.com/Lund-Org/cherry-debugger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lund-Org/cherry-debugger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lund-Org/cherry-debugger/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nyc": "^14.0.0"
+  },
+  "keywords": [
+    "cherry"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src"
+  ]
+}
