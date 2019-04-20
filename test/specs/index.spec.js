@@ -1,5 +1,7 @@
+const debug = require('../../src/index.js')
+
 describe('temp test', () => {
   it('temp', () => {
-    expect(true).to.be.equal(true)
+    expect(debug).not.to.be.equal(undefined)
   })
 })
